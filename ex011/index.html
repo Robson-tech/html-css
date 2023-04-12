@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Media types</title>
+</head>
+<body>
+    <h1>Tipos de mídia</h1>
+    <ul>
+        <li><img src="img/Icojam-Blueberry-Basic-Home.ico" alt="Ícone de casinha"></li>
+        <li><img src="img/Icojam-Blueberry-Basic-Close-delete.ico" alt="Ícone de fechamento"></li>
+        <li><img src="img/Icojam-Blueberry-Basic-Comment.ico" alt="Ícone de mensagem"></li>
+        <li><img src="img/Icojam-Blueberry-Basic-Email-2.ico" alt="Ícone de e-mail"></li>
+        <li><img src="img/Icojam-Blueberry-Basic-Information.ico" alt="Ícone de informação"></li>
+    </ul>
+
+    <h1>Imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="Foto grande">
+    </picture>
+
+    <h1>Áudios</h1>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="media/Ant Fire - Rachel K Collier.mp3" type="audio/mpeg">
+        <source src="media/Ant Fire - Rachel K Collier.ogg" type="audio/ogg">
+        <source src="media/Ant Fire - Rachel K Collier.wav" type="audio/wav">
+        <p>Arquivo não pode ser carregado, baixe ele <a href="media/Ant Fire - Rachel K Collier.mp3" download="Ant Fire - Rachel K Collier.mp3" type="audio/mpeg">aqui</a></p>
+    </audio>
+    <dl>
+        <dt>Cig Swaag</dt>
+        <dd>
+            <audio src="media/Cig Swaag - Jingle Punks.mp3" controls></audio>
+        </dd>
+        <dt>I Feel It All So Deeply</dt>
+        <dd>
+            <audio src="media/I Feel It All So Deeply - Bail Bonds.mp3" controls></audio>
+        </dd>
+    </dl>
+</body>
+</html>

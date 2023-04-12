@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to left, #FF1654 0%, #B2DBBF 100%);
+}
+
+h1.titulo {
+    background-color: #FF1654;
+    height: auto;
+    padding: 5px;
+}
+
+article.caixa-sombreada {
+    background-color: snow;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 1px 10px;
+    border-radius: 10px 0px;
+    box-shadow: 3px 5px 4px black;
+}
+
+article > ul {
+    list-style-type: square;
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px;
+    border: 1px solid #FF1654;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.fantasy {
+    font-family: fantasy;
+}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Eraser';
+    src: url('../fonts/EraserRegular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root {
+    --color1: #217517;
+    --color2: #88F77B;
+    --color3: #45F531;
+    --color4: #41753B;
+    --color5: #386B30;
+}
+
+body {
+    background-color: var(--color5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Eraser', fantasy;
+    font-size: 3em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    background-color: var(--color2);
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}

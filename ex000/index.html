@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if user.is_authenticated %}
+    <h1>Olá {{ user.username }}</h1>
+    <button><a href="{% url 'website:logout' %}">Logout</a></button>
+    {% else %}
+    <h1>Olá visitante</h1>
+    <button><a href="{% url 'website:login' %}">Login</a></button>
+    {% endif %}
+</body>
+</html>

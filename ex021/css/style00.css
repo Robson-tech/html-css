@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*
+    Seletores Personalizados
+    # - ID
+    . - Classe
+    : - Pseudo-classes
+    :: - Pseudo-elementos
+    > - Filho
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A6F280;
+}
+
+li {
+    margin-top: 12px;
+}
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: #74F037;
+}
+
+a:active {
+    background-color: #4D703B;
+}
+
+p {
+    text-align: justify;
+}
+
+p::first-line {
+    color: lightslategrey;
+}
+
+p::first-letter {
+    color: lawngreen;
+}
+
+.especial {
+    background-color: #4D703B;
+    text-decoration: underline;
+}
+
+.especial::after {
+    content: "<<";
+}
+
+.especial::before {
+    content: ">>";
+}
+
+.caixa {
+    display: inline-block;
+    background-color: #74F037;
+    border: 1px solid #4D703B;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.caixa:hover {
+    background-color: #4D703B;
+    color: white;
+}
+
+div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+/* 
+.caixa > span {
+    display: none;
+}
+
+.caixa:hover > span {
+    display: inline;
+} */

@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+header {
+    border: 1px solid #000;
+}
+
+main {
+    text-align: justify;
+    display: inline-block;
+    max-width: 600px;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+aside {
+    display: inline-block;
+    max-width: 200px;
+    height: 600px;
+    margin: 10px;
+    border: 1px solid #000;
+    position: absolute;
+}
+
+footer {
+    border: 1px solid #000;
+}

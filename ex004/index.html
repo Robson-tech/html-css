@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'website/favicon-50.ico' %}" type="image/x-icon">
+    <title>Paisagem</title>
+</head>
+<body>
+    <h1>Experimentando imagens</h1>
+    <hr>
+    <img src="{% static 'website/logo-ufpi-100.png' %}" alt="Imagem com o logo da UFPI">
+    <p>Logo da UFPI reduzido e ocupando menos espaço de armazenamento.</p>
+    <img src="https://www.mozilla.org/media/img/home/dino.d58f2ed768f7.svg" alt="Dinossauro entregando uma caixa">
+    <p>Imagem no site da mozilla de um dinossauro.</p>
+    <img src="{% static 'website/paisagem-640.jpg' %}" alt="Imagem de uma paisagem">
+    <p>Imagem de uma paisagem.</p>
+</body>
+</html>
