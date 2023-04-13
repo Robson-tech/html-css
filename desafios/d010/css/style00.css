@@ -173,6 +173,7 @@ aside > ul {
 
 img {
     max-width: 700px;
+    min-width: 400px;
     display: block;
     margin: auto;
 }
