@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+:root {
+    --color0: #000659;
+    --color1: #4954F2;
+    --color2: #000ED9;
+    --color3: #1B1F59;
+    --color4: #000BA6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background-color: #000659;
+    background-image: url('https://www.nasa.gov/sites/default/files/thumbnails/image/main_image_star-forming_region_carina_nircam_final-5mb.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background: #000659 url('../img/wallpaper007.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--color1), var(--color0));
+    height: 100px;
+}
+
+header h1 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: var(--color0);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color1);
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: var(--color2);
+}
+
+section#container {
+    position: relative;
+    background: purple url('../img/target001.png') center center no-repeat;
+    background-size: 100% 100%;
+    max-width: 600px;
+    height: 700px;
+    margin: auto;
+    padding: 10px;
+}
+
+article#content {
+    position: absolute;
+    background: yellow url('../img/target001.png') center center no-repeat;
+    background-size: 100% 100%;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    text-align: justify;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* main {
+    background-color: #7c82df;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main aside {
+    background-color: #1B1F59;
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+aside h2 {
+    background-color: #000ED9;
+    margin: -10px -10px 10px -10px;
+    padding: 3px 10px;
+} */
