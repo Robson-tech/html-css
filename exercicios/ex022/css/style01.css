@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body {
+    background-image: url(../img/wallpaper001.jpg);
+}
+
+div#q1 {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('https://blogaviesp.files.wordpress.com/2015/03/maceio.jpg');
+    background-size: 100px 100px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+div#q2 {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('https://blogaviesp.files.wordpress.com/2015/03/maceio.jpg');
+    background-size: 100px 100px;
+    background-repeat: repeat-x;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+div#q3 {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url('https://blogaviesp.files.wordpress.com/2015/03/maceio.jpg');
+    background-size: 100px 100px;
+    background-repeat: repeat-y;
+    border: 1px solid #000;
+    border-radius: 10px;
+}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('https://blogaviesp.files.wordpress.com/2015/03/maceio.jpg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
