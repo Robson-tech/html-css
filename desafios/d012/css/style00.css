@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+:root {
+    --color0: #751700;
+    --color1: #F76C4A;
+    --color2: #F42F00;
+    --color3: #753423;
+    --color4: #C22700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(../imagens/background003.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header {
+    font-family: 'Tilt Prism', cursive;
+    text-align: center;
+    font-size: 1.5em;
+    background-image: linear-gradient(to bottom, var(--color2), var(--color3));
+    width: 100%;
+    height: 110px;
+}
+
+nav {
+    text-align: center;
+    background-color: var(--color3);
+    width: 100%;
+    height: 40px;
+    padding: 5px 0;
+}
+
+nav a {
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: var(--color4);
+}
+
+main {
+    border: 2px dashed var(--color1);
+    color: white;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+main h1 {
+    font-size: 2.5em;
+}
+
+main p {
+    text-align: justify;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+main section {
+    position: relative;
+    background-image: url(../imagens/sky.jpg);
+    max-width: 640px;
+    height: 427px;
+    margin: 10px auto;
+}
+
+main article {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../imagens/ufo.png);
+    width: 32px;
+    height: 32px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: var(--color2);
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}

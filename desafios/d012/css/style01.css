@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background: black url(../imagens/background004.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+div.gatinho {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-image: url(../imagens/cat.png);
+    width: 32px;
+    height: 32px;
+}
+
+main {
+    height: 1000px;
+}

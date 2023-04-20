@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+:root {
+    --color0: #F9FBFD;
+    --color1: #DEDFE3;
+    --color2: #485688;
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    max-width: 600px;
+    margin: auto;
+}
+
+main article {
+    border: 1px solid var(--color1);
+    background-color: var(--color0);
+    padding: 0 10px;
+}
+
+main table {
+    border: 1px solid var(--color1);
+    width: 100%;
+    margin-top: 10px;
+}
+
+caption#titulo {
+    color: white;
+    font-style: bolder;
+    background-color: var(--color2);
+}
+
+thead#cabecalho {
+    background-color: var(--color1);
+}
+
+tbody#corpo td {
+    border-bottom: 1px dashed black;
+    font-size: 0.6rem;
+}
