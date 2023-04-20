@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+header {
+    background-color: blueviolet;
+    height: 100px;
+}
+
+section {
+    height: 100vh;
+}
+
+section#img0 {
+    background: black url(../imagens/background005.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+section#img1 {
+    background: black url(../imagens/background004.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+section#img2 {
+    background: black url(../imagens/background003.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 100px;
+}
