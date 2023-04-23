@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-image: url(../img/white-woven-fabric.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
