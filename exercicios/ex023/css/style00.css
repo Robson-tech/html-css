@@ -35,7 +35,7 @@ tbody {
     border: 1px solid black;
 }
 
-td {
+td, th {
     border: 1px solid #000;
     text-align: center; /* Alinhamento horizontal */
     vertical-align: middle; /* Alinhamento vertical */

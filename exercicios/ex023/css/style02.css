@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+div#principal {
+    background-color: lightgray;
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+}
+
+div#principal > div.filha {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+div#principal > div.filha:nth-child(odd) {
+    background-color: aquamarine;
+}
