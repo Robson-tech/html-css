@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+div#container {
+    overflow-x: auto;
+    width: 500px;
+    margin: auto;
+}
+
+table {
+    background-color: #eee;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #888;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+td, th {
+    border: 1px solid #000;
+    padding: 5px;
+}

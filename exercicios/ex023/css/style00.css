@@ -10,12 +10,15 @@ body {
     position: relative;
 }
 
-table {
+table#funcionarios {
     border: 1px solid black;
     border-collapse: collapse;
     background-color: lightcyan;
     width: 400px;
     height: 400px;
+    margin: 20px 0;
+
+    /* Centralizar a tabela */
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -23,16 +26,9 @@ table {
 }
 
 caption {
-    font-size: 1.5em;
+    background-color: lightblue;
     font-weight: bold;
     padding: 5px;
-    background-color: lightblue;
-    border: 1px solid black;
-    border-bottom: none;
-}
-
-tbody {
-    border: 1px solid black;
 }
 
 td, th {
@@ -40,4 +36,12 @@ td, th {
     text-align: center; /* Alinhamento horizontal */
     vertical-align: middle; /* Alinhamento vertical */
     padding: 5px;
+}
+
+th {
+    background-color: lightblue;
+}
+
+tr:nth-child(even) {
+    background-color: lightyellow;
 }
