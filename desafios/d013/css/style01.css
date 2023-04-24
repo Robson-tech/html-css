@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: black url(../img/background003.jpg) no-repeat center top fixed;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+table {
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #aaa;
+    text-align: center;
+}

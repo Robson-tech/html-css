@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black url("../img/background004.jpg") no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+caption {
+    background-color: #ddd;
+    padding: 5px;
+}
+
+thead, th, td.media {
+    background-color: #666;
+    color: white;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th.media {
+    text-align: left;
+}
+
+td {
+    text-align: center;
+}
+
+td.dado-textual {
+    text-align: left;
+}
