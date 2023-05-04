@@ -33,7 +33,7 @@ section#telefone {
     transform: translate(-50%, -50%);
 }
 
-iframe {
+iframe#tela {
     width: 215px;
     height: 377px;
     position: absolute;
@@ -43,10 +43,20 @@ iframe {
 }
 
 section#redes-sociais {
-    background-color: aquamarine;
+    text-align: right;
+}
+
+img {
+    border-radius: 50%;
     width: 50px;
-    height: 350px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+img:hover {
+    border: 3px solid white;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.2s, box-shadow 0.2s, border 0.2s;
 }
