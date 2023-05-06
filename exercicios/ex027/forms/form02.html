@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 02</title>
+    <link rel="stylesheet" href="../css/style01.css">
+</head>
+<body>
+    <!-- action será disparada quando o botão de submissão for acionado -->
+    <!-- autocomplete="off" desabilita o recurso de autocompletar -->
+    <!-- labels servem para definir relações com os seus respectivos widgets e auxiliam em telas menores onde a seleção de caixa é dificultada -->
+    <form action="cadastro.php" method="post" autocomplete="off" id="form02">
+        <p><label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
