@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200vh;
+}
+
+main {
+    border: 1px solid black;
+    height: 97vh;
+    margin: 8px;
+    /* position: relative; */
+}
+
+section {
+    border: 1px solid red;
+    background-color: lightblue;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+section#secao1 {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+section#secao2 {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+section#secao3 {
+    position: sticky;
+    top: 0;
+    right: 10px;
+}
+
+p {
+    text-align: justify;
+    margin: 8px;
+}
