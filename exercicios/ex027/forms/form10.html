@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 10</title>
+    <link rel="stylesheet" href="../css/style01.css">
+</head>
+<body>
+    <form action="" method="get" autocomplete="off">
+        <fieldset>
+            <div>
+                <label for="irange">Range:</label>
+                <input type="range" name="range" id="irange" min="1" max="50" oninput="isaida.innerHTML = Number(irange.value)">
+            </div>
+            <div>
+                <label for="isaida">Saída:</label>
+                <output name="saida" id="isaida">1</output>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

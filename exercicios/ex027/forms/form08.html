@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 8</title>
+    <link rel="stylesheet" href="../css/style01.css">
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <fieldset>
+            <div>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" size="30" maxlength="100" autocomplete="name">
+            </div>
+            <div>
+                <label for="iestados">Estados:</label>
+                <select name="estados" id="iestados">
+                    <option value="" selected>Selecione</option>
+                    <optgroup label="Norte">
+                        <option value="acre">Acre</option>
+                        <option value="amazonas">Amazonas</option>
+                        <option value="roraima">Roraima</option>
+                        <option value="rondonia">Rondônia</option>
+                        <option value="para">Pará</option>
+                        <option value="amapa">Amapá</option>
+                        <option value="tocantins">Tocantins</option>
+                    </optgroup>
+                    <optgroup label="Nordeste">
+                        <option value="maranhao">Maranhão</option>
+                        <option value="piaui">Piauí</option>
+                        <option value="ceara">Ceará</option>
+                        <option value="rioGrandeDoNorte">Rio Grande do Norte</option>
+                        <option value="paraiba">Paraíba</option>
+                        <option value="pernambuco">Pernambuco</option>
+                        <option value="alagoas">Alagoas</option>
+                        <option value="sergipe">Sergipe</option>
+                        <option value="bahia">Bahia</option>
+                    </optgroup>
+                    <optgroup label="Centro-Oeste">
+                        <option value="matoGrosso">Mato Grosso</option>
+                        <option value="matoGrossoDoSul">Mato Grosso do Sul</option>
+                        <option value="goias">Goiás</option>
+                        <option value="distritoFederal">Distrito Federal</option>
+                    </optgroup>
+                    <optgroup label="Sudeste">
+                        <option value="minasGerais">Minas Gerais</option>
+                        <option value="espiritoSanto">Espírito Santo</option>
+                        <option value="rioDeJaneiro">Rio de Janeiro</option>
+                        <option value="saoPaulo">São Paulo</option>
+                    </optgroup>
+                    <optgroup label="Sul">
+                        <option value="parana">Paraná</option>
+                        <option value="santaCatarina">Santa Catarina</option>
+                        <option value="rioGrandeDoSul">Rio Grande do Sul</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="iprof">Profissão:</label>
+                <input type="text" name="prof" id="iprof" list="listprof">
+                <datalist id="listprof">
+                    <option>Administrador</option>
+                    <option>Advogado</option>
+                    <option>Engenheiro</option>
+                    <option>Médico</option>
+                    <option>Professor</option>
+                    <option>Técnico</option>
+                    <option>Outros</option>
+                </datalist>
+            </div>
+            <div>
+                <label for="imsg">Mensagem:</label><br>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

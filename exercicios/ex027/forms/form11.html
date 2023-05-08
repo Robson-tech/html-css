@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 11</title>
+    <link rel="stylesheet" href="../css/style01.css">
+</head>
+<body>
+    <form action="" method="get" autocomplete="off">
+        <fieldset>
+            <div>
+                <label for="iano">Ano:</label>
+                <input type="number" name="ano" id="iano" min="1990" max="2023" oninput="calcularIdade()">
+            </div>
+            <div>
+                <label for="iidade">Idade</label>
+                <output name="idade" id="iidade"></output>
+            </div>
+        </fieldset>
+    </form>
+    <script>
+        function calcularIdade() {
+            var ano = document.getElementById('iano').value;
+            var idade = new Date().getFullYear() - ano;
+            document.getElementById('iidade').value = idade;
+        }
+    </script>
+</body>
+</html>
