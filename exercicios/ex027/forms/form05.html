@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário 5</title>
+    <link rel="stylesheet" href="../css/style01.css" />
+  </head>
+  <body>
+    <!-- Estudar o que é RegEx (Regular expression) com o atributo pattern -->
+    <form action="cadastro.php" method="get" autocomplete="off">
+      <fieldset>
+        <legend>Cliente 01</legend>
+        <p>
+          <label for="inome">Nome:</label>
+          <input
+            type="text"
+            name="nome"
+            id="inome"
+            maxlength="100"
+            value="Robson"
+            required
+          />
+          <label for="isobrenome">Sobrenome:</label>
+          <input
+            type="text"
+            name="sobrenome"
+            id="isobrenome"
+            maxlength="100"
+            value="Júnior"
+            required
+          /><br />
+          <label for="icpf"
+            ><abbr title="Cadastro de Pessoas Fisicas">CPF</abbr>:</label
+          >
+          <input type="text" name="cpf" id="icpf" maxlength="11" required />
+          <label for="irg"><abbr title="Registro Geral">RG</abbr>:</label>
+          <input type="text" name="rg" id="irg" maxlength="7" required /><br />
+          <label for="idata">Data de nascimento:</label>
+          <input
+            type="date"
+            name="data"
+            id="idata"
+            value="2002-07-27"
+            required
+          /><br />
+        </p>
+      </fieldset>
+      <fieldset>
+          <p>
+            <label for="iemail">E-mail:</label>
+            <input type="email" name="email" id="iemail" required />
+            <label for="itelefone">Telefone:</label>
+            <input type="tel" name="telefone" id="itelefone" required /><br />
+            <label for="iagendamento">Agendamento:</label>
+            <input
+              type="datetime-local"
+              name="agendamento"
+              id="iagendamento"
+              required
+            />
+          </p>
+      </fieldset>
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário 6</title>
+    <link rel="stylesheet" href="../css/style01.css" />
+  </head>
+  <body>
+    <form action="cadastro.php" method="get" autocomplete="off">
+      <fieldset>
+        <legend>Informações pessoais</legend>
+        <p>
+          <label for="inome">Nome completo:</label>
+          <input type="text" name="nome" id="inome" required />
+          <label for="idata">Data de nascimento:</label>
+          <input type="date" name="data" id="idata" required /><br />
+          Sexo:
+          <input type="radio" name="sexo" id="imas" value="M" checked />
+          <label for="imas">Masculino</label>
+          <input type="radio" name="sexo" id="ifem" value="F" />
+          <label for="ifem">Feminino</label><br />
+          Estado civil:
+          <input type="radio" name="civil" id="icasado" value="casado" /><label
+            for="icasado"
+            >Casado</label
+          >
+          <input
+            type="radio"
+            name="civil"
+            id="isolteiro"
+            value="solteiro"
+            checked
+          /><label for="isolteiro">Solteiro</label>
+          <input type="radio" name="civil" id="idivorciado" value="divorciado"><label for="idivorciado">Divorciado</label><br>
+          <label for="iendereco">Endereço:</label>
+          <input type="text" name="endereco" id="iendereco" required />
+          <label for="itelefone">Telefone:</label>
+          <input type="tel" name="telefone" id="itelefone" required />
+          <label for="iemail">E-mail:</label>
+          <input type="email" name="email" id="iemail" required />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Frutas favoritas</legend>
+        <p>
+          <input type="checkbox" name="frutas" id="ipera" value="pera" /><label
+            for="ipera"
+            >Pera</label
+          ><br />
+          <input
+            type="checkbox"
+            name="frutas"
+            id="iabacaxi"
+            value="abacaxi"
+          /><label for="iabacaxi">Abacaxi</label><br />
+          <input
+            type="checkbox"
+            name="frutas"
+            id="ilaranja"
+            value="laranja"
+          /><label for="ilaranja">Laranja</label><br />
+          <input
+            type="checkbox"
+            name="frutas"
+            id="imanga"
+            value="manga"
+          /><label for="imanga">Manga</label><br />
+          <input type="checkbox" name="frutas" id="iuva" value="uva" /><label
+            for="iuva"
+            >Uva</label
+          ><br />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Filmes favoritos</legend>
+        <p>
+            <input type="checkbox" name="filmes" id="ixmen" value="xmen"><label for="ixmen">X-Men</label><br>
+            <input type="checkbox" name="filmes" id="icreed" value="creed"><label for="icreed">Creed</label><br>
+            <input type="checkbox" name="filmes" id="irambo" value="rambo"><label for="irambo">Rambo</label><br>
+            <input type="checkbox" name="filmes" id="ifrozen" value="frozen"><label for="ifrozen">Frozen</label><br>
+            <input type="checkbox" name="filmes" id="ithing" value="thing"><label for="ithing">Thing</label><br>
+        </p>
+      </fieldset>
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+  </body>
+</html>
