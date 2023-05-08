@@ -8,15 +8,29 @@
     <link rel="stylesheet" href="../css/style01.css">
 </head>
 <body>
-    <form action="cadastro.php" method="get" autocomplete="off">
+    <form action="cadastro.php" method="post" enctype="multipart/form-data" autocomplete="off">
         <fieldset>
             <p>
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome" size="30" maxlength="10" required><br>
-                <label for="tipo">Tipo:</label>
-                <input type="radio" name="" id="">
+                <label for="icolor">Cor:</label>
+                <input type="color" name="color" id="icolor">
             </p>
         </fieldset>
+        <fieldset>
+            <p>
+                <label for="irange">Range:</label>
+                <input type="range" name="range" id="irange" min="1" max="1000">
+            </p>
+        </fieldset>
+        <fieldset>
+            <p>
+                <label for="ifile">Arquivo:</label>
+                <input type="file" name="file" id="ifile" >
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
