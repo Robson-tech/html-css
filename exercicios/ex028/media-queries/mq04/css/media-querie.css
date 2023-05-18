@@ -9,17 +9,55 @@ Grandes telas: 1200px ou mais
 */
 
 @media print { /* IMPRESSÃO */
+    header h1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        text-shadow: none;
+    }
 
+    main {
+        border-radius: none;
+        border: 1px solid black;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) { /* TABLETS */
+    body {
+        background: black url(../img/back-tablet.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
 
+    img#phone {display: none;}
+    img#print {display: none;}
+    img#tablet {display: block;}
+    img#tv {display: none;}
+    img#pc {display: none;}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) { /* DESKTOPS */
+    body {
+        background: black url(../img/back-pc.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
 
+    img#phone {display: none;}
+    img#print {display: none;}
+    img#tablet {display: none;}
+    img#tv {display: none;}
+    img#pc {display: block;}
 }
 
 @media screen and (min-width: 1200px) { /* TELAS GRANDES */
+    body {
+        background: black url(../img/back-tv.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
 
+    img#phone {display: none;}
+    img#print {display: none;}
+    img#tablet {display: none;}
+    img#tv {display: block;}
+    img#pc {display: none;}
 }
