@@ -62,7 +62,7 @@ header menu ul li a:hover {
 
 main {
     border: 1px solid black;
-    max-width: 500px;
+    max-width: 768px;
     margin: auto;
     padding: 10px;
 }

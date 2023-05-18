@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+i#voltar {
+    border-radius: 50%;
+    background-color: darkgray;
+    font-size: 3em;
+    padding: 10px;
+    cursor: pointer;
+}
