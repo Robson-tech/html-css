@@ -31,7 +31,7 @@ section#login {
     border: 1px dashed black;
     border-radius: 20px;
     background-color: white;
-    width: 50%;
+    width: 70%;
     height: 80%;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
     overflow: hidden;
@@ -41,7 +41,7 @@ section#login {
 
 section#login div#imagem {
     display: block;
-    background: var(--color0) url(../img/img-login.jpg) no-repeat center bottom;
+    background: var(--color0) url(../img/img-login-g.jpg) no-repeat center bottom;
     background-size: cover;
     height: 200px;
 }
@@ -49,4 +49,13 @@ section#login div#imagem {
 section#login div#formulario {
     display: block;
     padding: 20px;
+}
+
+section#login div#formulario h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section#login div#formulario p {
+    font-size: 0.8em;
 }
