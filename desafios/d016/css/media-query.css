@@ -7,8 +7,8 @@
   }
 
   section#login {
-    width: 600px;
-    height: 150px;
+    width: 80%;
+    height: 50%;
   }
 
   section#login div#imagem {
@@ -26,7 +26,7 @@
 
 @media screen and (min-width: 992px) {
   body {
-    background: black url(../img/bg-predios.jpg) no-repeat center bottom fixed;
+    background: black url(../img/bg-cidade.jpg) no-repeat center center fixed;
     background-size: cover;
   }
 

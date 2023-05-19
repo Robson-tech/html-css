@@ -31,10 +31,12 @@ section#login {
     border: 1px dashed black;
     border-radius: 20px;
     background-color: white;
-    min-width: 250px;
-    min-height: 500px;
+    width: 50%;
+    height: 80%;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
     overflow: hidden;
+    transition: width .5s, height .5s;
+    animation-timing-function: ease;
 }
 
 section#login div#imagem {
