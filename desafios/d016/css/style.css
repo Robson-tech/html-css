@@ -25,48 +25,77 @@ main {
 
 section#login {
     position: absolute;
-    transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    border: 1px dashed black;
+
     border-radius: 20px;
     background-color: white;
     width: 70%;
-    height: 80%;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    height: 85%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
     overflow: hidden;
+
+    transform: translate(-50%, -50%);
     transition: width .5s, height .5s;
     animation-timing-function: ease;
 }
 
-section#login div#imagem {
+section#login > div#imagem {
     display: block;
     background: var(--color0) url(../img/img-login-g.jpg) no-repeat center bottom;
     background-size: cover;
     height: 200px;
 }
 
-section#login div#formulario {
+section#login > div#formulario {
     display: block;
     padding: 20px;
 }
 
-section#login div#formulario h1 {
+section#login > div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-section#login div#formulario p {
+section#login > div#formulario > p {
     font-size: 0.8em;
+    margin: 20px 0;
 }
 
-section#login div#formulario form div.campo {
+section#login > div#formulario > form > div.campo {
     display: block;
+    border-radius: 10px;
+    background-color: var(--color0);
+    color: white;
     width: 100%;
     margin: 10px 0;
 }
 
-section#login div#formulario form input[type=submit] {
+section#login > div#formulario > form > div.campo i{
+    /* border: 1px solid black; */
+    margin: 5px;
+    transform: translate(0, 1px);
+}
+
+section#login > div#formulario > form > div.campo > label.names {
+    display: none;
+}
+
+section#login > div#formulario > form > div.campo > input {
+    border: none;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: calc(100% - 50px);
+    padding: 5px;
+    transform: translate(0, -5px);
+}
+
+section#login > div#formulario > form > div.campo > input:focus-within {
+    outline: none;
+    background-color: white;
+}
+
+section#login > div#formulario > form > input[type=submit] {
     display: block;
     border: none;
     border-radius: 20px;
@@ -78,11 +107,11 @@ section#login div#formulario form input[type=submit] {
     cursor: pointer;
 }
 
-section#login div#formulario form input[type=submit]:hover {
+section#login > div#formulario > form > input[type=submit]:hover {
     background-color: lightgreen;
 }
 
-section#login div#formulario form a {
+section#login > div#formulario > form > a {
     display: block;
     text-align: center;
     font-size: 0.8em;
@@ -90,6 +119,7 @@ section#login div#formulario form a {
     margin: 10px auto;
 }
 
-section#login div#formulario form a i {
-    font-size: 1.2em;
+section#login > div#formulario > form > a > i {
+    font-size: 1.5em;
+    transform: translate(0, 6px);
 }

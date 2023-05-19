@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Login</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/style.css" media="all">
@@ -19,13 +20,13 @@
                 <form action="login.php" method="post" autocomplete="off">
                     <div class="campo">
                         <label for="iemail"><i class="material-symbols-outlined">person</i></label>
-                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail" autocomplete="email" maxlength="100" required>
-                        <label for="iemail">Login</label>
+                        <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" autocomplete="email" maxlength="100" required>
+                        <label for="iemail" class="names">Login</label>
                     </div>
                     <div class="campo">
                         <label for="isenha"><i class="material-symbols-outlined">vpn_key</i></label>
-                        <input type="password" name="senha" id="isenha" placeholder="Digite a senha" autocomplete="current-password" minlength="8" maxlength="20" required>
-                        <label for="isenha" >Senha</label>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" minlength="8" maxlength="20" required>
+                        <label for="isenha" class="names">Senha</label>
                     </div>
                     <input type="submit" value="Entrar">
                     <a href="#">Esqueci a senha <i class="material-symbols-outlined">mail</i></a>
